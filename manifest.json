@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "demo",
+  "name": "fkads",
   "version": "1.0.0",
-  "description": "__MSG_pluginDesc__",
+  "description": "删除网页上你想删除的",
   "icons":
   {
     "16": "img/icon.png",
@@ -13,7 +13,7 @@
   "browser_action":
   {
     "default_icon": "img/icon.png",
-    "default_title": "这是一个快速删除页面上不想看见的插件，鼠标悬停在你想删除的元素上，按下d键删除",
+    "default_title": "这是一个快速删除页面上不想看见的插件，鼠标悬停在你想删除的元素上，按下d键删除，刷新重新出现",
     "default_popup": "popup.html"
   },
   "content_scripts":
