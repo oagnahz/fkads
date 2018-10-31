@@ -10,9 +10,8 @@ window.document.body.onmouseover = function(event){
     el = event.target;//鼠标每经过一个元素，就把该元素赋值给变量el
 }
 document.onkeydown=function(e){
-    var keyNum=window.event ? e.keyCode :e.which;
-    if(keyNum==68){
-        console.log('您按下了d,并且删除了'+el.innerHTML);
+    if(e.keyCode  ==81 &&e.ctrlKey){
+        console.log('您删除了'+el.innerHTML);
         el.remove();
     }
 }
